@@ -1,0 +1,39 @@
+<%- include("partials/header.ejs") %>
+<body style="background-color : #D4C9BE"></body>
+
+<section id="blog">
+
+    <%if(locals.content){%>
+
+        <div>
+            <p>
+                <%= locals.content %>
+            </p>
+        </div>
+
+    <%}else{%>
+        <div>
+            <p>
+                You have no blogs yet!
+            </p>
+            <a href= "/start">
+                <button>Start a blog now!</button>
+            </a>
+            
+        </div>
+    <%}%>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<%- include("partials/footer.ejs") %>

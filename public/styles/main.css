@@ -1,0 +1,80 @@
+.hero{
+    margin-top: 60px;
+    margin-bottom: 210px;
+}
+
+.brandName {
+    font-family: cursive;
+}
+
+.tagLine{
+    font-family: sans-serif;
+    color: white;
+    background-color: grey;
+    display: inline-block;
+    border-radius: 15%;
+}
+
+.head{
+    background-color: transparent;
+}
+
+ul .nav-link{
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+
+.head .nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: black;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex
+;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+#about{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 150px;
+    margin-bottom: 270px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog{
+
+    height: auto;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    background-color: white;
+    margin: 50px 200px;
+
+}
+
+.foot{
+    background-color: grey;
+    margin-top: 20px;
+}
+
